@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: honeydew;
+}
+
+.calc {
+    width: 350px;
+    height: 600px;
+    border: 1px solid teal;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(50, 50, 50);
+}
+
+.output {
+    width: 350px;
+    height: 200px;
+    text-align: right;
+    font-size: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.output p {
+    margin-right: 20px;
+    justify-self: flex-end;
+}
+
+.buttons {
+    margin-top: 10px;
+    width: 350px;
+    height: 390px;
+}
+
+.buttons button {
+    width: 75px;
+    height: 70px;
+    border-radius: 25px;
+    border: 0;
+    background: linear-gradient(120deg, rgb(12, 86, 80), rgb(88, 98, 125));
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.buttons button:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.rightBtns {
+    float: right;
+    width: 80px;
+    height: 400px;
+    margin-right: 5px;
+}
+
+.rightBtns button {
+    background: linear-gradient(120deg, rgb(12, 63, 59), rgb(40, 65, 141));
+}
+
+.topBtns button {
+    background: linear-gradient(120deg, rgb(71, 156, 149), rgb(104, 130, 200));
+}
+
+.numbers {
+    position: relative;
+    width: 270px;
+    height: 400px;
+}
+
+.buttons .numbers .zero {
+    width: 165px;
+}
